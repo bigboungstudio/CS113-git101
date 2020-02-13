@@ -1,0 +1,26 @@
+Git มีประโยชน์ในการเก็บcheckpointต่างๆในการทำงานของเราได้
+
+ต้องมีโปรแกรมGitก่อนไม่งั้นใช้ไม่ได้
+
+ใช้ Command Prompt ให้มันไปลงที่ตำแหน่งโฟลเดอร์ของเราใช้คำสั่ง git init
+และตรวจดูhidden itemsในโฟลเดอร์ของเราว่ามี .git หรือไม่
+
+git status ช่วยในการตรวจสอบสถานะการเปลี่ยนแปลงของไฟล์
+
+git add ชื่อไฟล์.นามสกุลไฟล์ //เพิ่มไฟล์เข้าstaging area เตรียม commit
+staging area ในที่นี้คือเวทีและยืนหน้า
+
+git commit -m "ชื่อcheckpoint" เขียนเพื่อcommitเข้าไป
+
+git log --all --decorate --oneline --graph ใช้ดูcheckpointทั้งหมดที่ทำ
+
+จะยัดเข้า github ก็ไปสร้าง repository ในเว็บก่อน บลาๆๆ
+
+จะเชื่อมrepository กับ github เราก็ใช้
+git remote add <ชื่อ remote เช่น origin> <git url>  ในการเชื่อม
+
+git push -u origin master  ใช้ส่งไฟล์เข้าไปเก็บในgithub
+pushอีกครั้งใช้   git push  ก็พอ
+
+
+ 
