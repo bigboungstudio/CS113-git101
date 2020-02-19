@@ -1,0 +1,4 @@
+git branch <branch-name> สร้างbranchใหม่ขึ้นมา
+git checkout <branch-name> เลือกสับรางไปมาระหว่างbranch
+แต่ละbranchจะเก็บไฟล์แตกต่างกันตามที่เรากำหนดเหมือนโลกคู่ขนาน
+git merge <ชื่อbranchที่จะเอามารวมกันกับที่เราตั้งเป็นตัวหลัก>
